@@ -13,6 +13,9 @@
 		B60D101E20DCE7E90032EC05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B60D101D20DCE7E90032EC05 /* Assets.xcassets */; };
 		B60D102120DCE7E90032EC05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B60D101F20DCE7E90032EC05 /* LaunchScreen.storyboard */; };
 		B60D102420DCE7E90032EC05 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B60D102320DCE7E90032EC05 /* main.m */; };
+		B60D102C20DCE8300032EC05 /* OrderDelivery.m in Sources */ = {isa = PBXBuildFile; fileRef = B60D102B20DCE8300032EC05 /* OrderDelivery.m */; };
+		B60D102F20DCE8E60032EC05 /* Restaraunt.m in Sources */ = {isa = PBXBuildFile; fileRef = B60D102E20DCE8E60032EC05 /* Restaraunt.m */; };
+		B60D103220DCE9000032EC05 /* Deliver.m in Sources */ = {isa = PBXBuildFile; fileRef = B60D103120DCE9000032EC05 /* Deliver.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		B60D102020DCE7E90032EC05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B60D102220DCE7E90032EC05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B60D102320DCE7E90032EC05 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B60D102A20DCE8300032EC05 /* OrderDelivery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrderDelivery.h; sourceTree = "<group>"; };
+		B60D102B20DCE8300032EC05 /* OrderDelivery.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrderDelivery.m; sourceTree = "<group>"; };
+		B60D102D20DCE8E60032EC05 /* Restaraunt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Restaraunt.h; sourceTree = "<group>"; };
+		B60D102E20DCE8E60032EC05 /* Restaraunt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Restaraunt.m; sourceTree = "<group>"; };
+		B60D103020DCE9000032EC05 /* Deliver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Deliver.h; sourceTree = "<group>"; };
+		B60D103120DCE9000032EC05 /* Deliver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Deliver.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +71,12 @@
 				B60D101520DCE7E70032EC05 /* AppDelegate.m */,
 				B60D101720DCE7E70032EC05 /* ViewController.h */,
 				B60D101820DCE7E70032EC05 /* ViewController.m */,
+				B60D102A20DCE8300032EC05 /* OrderDelivery.h */,
+				B60D102B20DCE8300032EC05 /* OrderDelivery.m */,
+				B60D102D20DCE8E60032EC05 /* Restaraunt.h */,
+				B60D102E20DCE8E60032EC05 /* Restaraunt.m */,
+				B60D103020DCE9000032EC05 /* Deliver.h */,
+				B60D103120DCE9000032EC05 /* Deliver.m */,
 				B60D101A20DCE7E70032EC05 /* Main.storyboard */,
 				B60D101D20DCE7E90032EC05 /* Assets.xcassets */,
 				B60D101F20DCE7E90032EC05 /* LaunchScreen.storyboard */,
@@ -142,8 +157,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B60D101920DCE7E70032EC05 /* ViewController.m in Sources */,
+				B60D102F20DCE8E60032EC05 /* Restaraunt.m in Sources */,
 				B60D102420DCE7E90032EC05 /* main.m in Sources */,
+				B60D102C20DCE8300032EC05 /* OrderDelivery.m in Sources */,
 				B60D101620DCE7E70032EC05 /* AppDelegate.m in Sources */,
+				B60D103220DCE9000032EC05 /* Deliver.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
